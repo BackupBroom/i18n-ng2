@@ -1,3 +1,22 @@
 <h1>
   {{title}}
+
+  <select
+    name="locales"
+    id="localesSelector"
+    (change)="onLocaleSelected($event.target.value)"
+  >
+
+    <option
+      *ngFor="let locale of getLanguages()"
+      [value]="locale.code"
+      [selected]="activeLocale.code === locale.code"
+    >
+      {{ locale.displayName }}
+    </option>
+
+  </select>
+
+  <span i18n="User welcome|An introduction header for this sample">Hello World!</span>
+
 </h1>
