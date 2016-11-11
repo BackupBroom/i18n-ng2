@@ -3,8 +3,8 @@
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 
 ## Installation
-1. `npm install angular-cli -g`;
-2. `npm install`;
+1. Run `npm install angular-cli -g`;
+2. Run `npm install` from the `testproject` directory;
 3. `ng serve`;
 4. Navigate to `http://localhost:4200/`.
 
