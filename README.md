@@ -5,7 +5,7 @@ This project was generated with [angular-cli](https://github.com/angular/angular
 ## Installation
 1. Run `npm install angular-cli -g`;
 2. Run `npm install` from the `testproject` directory;
-3. `ng serve`;
+3. Run `ng serve`;
 4. Navigate to `http://localhost:4200/`.
 
 ## Development server
