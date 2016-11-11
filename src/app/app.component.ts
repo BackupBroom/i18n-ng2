@@ -29,7 +29,7 @@ const locales = [
 
 export class AppComponent {
 
-  title = 'Some String to Translate';
+  title = 'Select Language';
   activeLocale = locales.find(locale => locale.code === localStorage.getItem('locale')) || locales[0];
 
   getLanguages(): Array<LocaleViewObject> {
